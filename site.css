@@ -107,3 +107,10 @@ u1#menu li {
 display: inline;
 margin-right: 3px;
 }
+
+img {
+    width:120px;
+    height:150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

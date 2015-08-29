@@ -3,7 +3,7 @@ body {
     font-size: 16px;
     background-color: white;
     color: #69699;
-    padding: 3px;
+
     opacity: 1.0;
     filter: alpha(opacity=40);
 }
@@ -64,6 +64,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 
 .information .container {

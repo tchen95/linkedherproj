@@ -5,22 +5,40 @@
         <link href = site.css rel= "stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
               rel="stylesheet">
+          <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+       <link rel="stylesheet" href="site.css">
     </head>
 
     <body>
         <h1>Grasshopper</h1>
-        <div>
-            <a href="#">
+        <div class="row">
+
+          <div class="col-md-6">
+            <a href="profile.html">
                 <i id = "personIcon" class="material-icons">person</i>
-                <i id = "senseiIcon" class="material-icons">person</i>
-                <i id = "grasshopperIcon" class="material-icons">person</i>
-                <i id = "eventsIcon" class="material-icons">person</i>
             </a>
             <h2 id = "profileTag">Profile</h2>
+            <a href="mentees.html">
+                <i id = "senseiIcon" class="material-icons">person</i>
+            </a>
             <h2 id = "senseiTag">Senseis</h2>
-            <h2 id = "grasshopperTag">Grasshoppers</h2>
-            <h2 id = "eventsTag">Events</h2>
-        </div>
+            </div>
+            <div class="col-md-6">
+            
+            <a href="mentors.html">
+
+                <i id = "grasshopperIcon" class="material-icons">person</i>
+              </a>
+              <h2 id = "grasshopperTag">Grasshoppers</h2>
+              
+              <a href="events.html">
+                <i id = "eventsIcon" class="material-icons">person</i>
+            </a>
+              <h2 id = "eventsTag">Events</h2>
+          </div>
+            
+          </div>
+
 
     </body>
 </html>

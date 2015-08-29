@@ -5,7 +5,7 @@ body {
     color: #69699;
     padding: 3px;
     opacity: 0.45;
-    filter: alpha(opacity=40);
+    filter: alpha(opacity=1);
 }
 
 #main {

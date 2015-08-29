@@ -1,27 +1,45 @@
 p { 
-  margin-top: 0px;
+  margin-top: 50px;
   margin-left:900px; 
   margin-right:100px;
   margin-bottom:0px;
 
-  font-family: "Lato";
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
 }
 
 .nav .nav-row .logo {
-  font-family: 'Lato', sans-serif;
-  padding: 4px;
-  color: #00cc66;
-  font-size: 50px;
+ font-family: 'Lato', sans-serif;
+    padding: 3px;
+    color: #00CC66;
+    font-size: 50px;
   font-weight: bold;
   margin-left: 20px;
-  display: inline;
 }
 
 .nav .nav-row .col-md-3 {
-  display: inline;
+  margin-top: 20px;
 }
 
+.events h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 24;
+    color:#324F17;
+    margin-left:100px;
+    margin-bottom:0px;
+    padding:0px;
+}
+
+.events h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20;
+    color:#324F17;
+    margin-left:100px;
+    margin-bottom:0px;
+    padding:0px;
+}
 input[type=text] { width: 278px; }
 
 :-moz-placeholder {
@@ -35,7 +53,7 @@ input[type=text] { width: 278px; }
 }
 
 input {
-  font-family: "Lato";
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
 }
 
@@ -61,17 +79,21 @@ input[type=text], input[type=password] {
 }
 
 img {
-  width:100px;
-  height:100px;
-  padding-top: 20px;
+	width:100px;
+	height:120px;
+	padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  
 }
 
 td {
    padding:15px;
 }
-
 table {
-  margin-left:200px;
+  font-family: 'Lato', sans-serif;
+  margin-top: 50px;
+	margin-left:200px;
 }
 
 body {

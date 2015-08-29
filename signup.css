@@ -4,7 +4,7 @@ body {
     background-color: white;
     color: #69699;
     padding: 3px;
-    opacity: 0.45;
+    opacity: 1.0;
     filter: alpha(opacity=40);
 }
 

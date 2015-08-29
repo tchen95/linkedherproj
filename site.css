@@ -45,6 +45,43 @@ padding: 3px;
     top: 400px;
 }
 
+#profileTag {
+    font-family: 'Lato', sans-serif;
+    border-bottom: 3px solid #xx9900;
+    color: floralwhite;
+    position: absolute;
+    left: 387px;
+    top: 250px;
+}
+
+#senseiTag {
+    font-family: 'Lato', sans-serif;
+    border-bottom: 3px solid #xx9900;
+    color: floralwhite;
+    position: absolute;
+    left: 887px;
+    top: 250px;
+}
+
+#grasshopperTag {
+    font-family: 'Lato', sans-serif;
+    border-bottom: 3px solid #xx9900;
+    color: floralwhite;
+    position: absolute;
+    left: 350px;
+    top: 520px;
+}
+
+#eventsTag {
+    font-family: 'Lato', sans-serif;
+    border-bottom: 3px solid #xx9900;
+    color: floralwhite;
+    position: absolute;
+    left: 887px;
+    top: 520px;
+}
+
+
 #main {
 padding: 5px;
 padding-left: 15px;
@@ -57,7 +94,7 @@ h1 {
 font-family: 'Lato', sans-serif;
 border-bottom: 3px solid #xx9900;
 color: floralwhite;
-font-size: 30px;
+font-size: 50px;
 }
 
 th {

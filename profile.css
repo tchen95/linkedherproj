@@ -6,6 +6,14 @@
   text-transform: uppercase;
 }
 
+#profilePic{
+    border-radius: 25px;
+    background: black;
+    padding: 5px;
+    top: 50px;
+    left: 500px;
+}
+
 .nav li {
   display: inline;
 }
@@ -17,15 +25,10 @@
   background-size: cover;
 }
 
-.display .container {
-  position: relative;
-  top:100px;
-}
-
 .display .container h2 {
   color: #fff;
-  font-size: 48px;  
-    
+  font-size: 48px;
+
   font-family: 'Lato', sans-serif;
   font-weight: bold;
 }

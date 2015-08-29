@@ -3,7 +3,7 @@ font-family: 'Lato', sans-serif;
 font-size: 16px;
 background-color: white;
 color: #699699;
-padding: 3px;
+
 }
 
 .nav .logo {
@@ -13,7 +13,7 @@ padding: 3px;
     font-size: 50px;
   font-weight: bold;
   margin-left: 20px;
-  
+
 
 }
 
@@ -30,34 +30,16 @@ h1 {
 
 
 .col-md-6 {
-  align-content: center;
-  display: block;
+    align-content: center;
+    display: block;
 }
 
-
-#personIcon{
-    color: #00cc66;
-    text-shadow: 1px 1px 1px #ccc;
-    font-size: 150px;
-
+#sensei {
+    margin-top: 75px;
 }
 
-#senseiIcon{
-    color: #00cc66;
-    text-shadow: 1px 1px 1px #ccc;
-    font-size: 150px;
-}
-
-#grasshopperIcon{
-    color: #00cc66;
-    text-shadow: 1px 1px 1px #ccc;
-    font-size: 150px;
-}
-
-#eventsIcon{
-    color: #00cc66;
-    text-shadow: 1px 1px 1px #ccc;
-    font-size: 150px;
+#calander {
+    margin-top: 75px;
 }
 
 #profileTag {

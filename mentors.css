@@ -1,5 +1,5 @@
 p { 
-	margin-top: 0px;
+	margin-top: 50px;
 	margin-left:900px; 
 	margin-right:100px;
 	margin-bottom:0px;
@@ -8,18 +8,40 @@ p {
   font-size: 14px;
 }
 
+
 .nav .nav-row .logo {
-  font-family: 'Lato', sans-serif;
-  padding: 4px;
-  color: #00cc66;
-  font-size: 50px;
+ font-family: 'Lato', sans-serif;
+    padding: 3px;
+    color: #00CC66;
+    font-size: 50px;
   font-weight: bold;
   margin-left: 20px;
-  display: inline;
 }
 
-.nav .nav-row .col-md-3 {
-  display: inline;
+
+
+.nav .col-md-3 {
+  margin-top: 20px;
+}
+
+.mentors h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 24;
+    color:#324F17;
+    margin-left:100px;
+    margin-bottom:0px;
+    padding:0px;
+}
+
+.mentors h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20;
+    color:#324F17;
+    margin-left:100px;
+    margin-bottom:0px;
+    padding:0px;
 }
 
 input[type=text] { width: 278px; }
@@ -68,9 +90,12 @@ img {
 
 td {
    padding:15px;
+  
 }
 
 table {
+  
+  margin-top: 50px;
 	margin-left:200px;
 }
 
@@ -88,25 +113,9 @@ h5 {
     padding:0px;
 }
 
-h1 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 24;
-    color:#324F17;
-    margin-left:100px;
-    margin-bottom:0px;
-    padding:0px;
-}
 
-h3 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 20;
-    color:#324F17;
-    margin-left:100px;
-    margin-bottom:0px;
-    padding:0px;
-}
+
+
 
 h2 {
 	font-family: 'Lato', sans-serif;

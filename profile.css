@@ -1,9 +1,22 @@
-.nav a {
-  color: #5a5a5a;
-  font-size: 11px;
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    background-color: white;
+    color: #69699;
+    padding: 3px;
+    opacity: 1.0;
+    filter: alpha(opacity=40);
+}
+
+.nav .logo {
+ font-family: 'Lato', sans-serif;
+    padding: 4px;
+    color: #00CC66;
+    font-size: 50px;
   font-weight: bold;
-  padding: 14px 10px;
-  text-transform: uppercase;
+  margin-left: 20px;
+  
+
 }
 
 #profilePic{
@@ -14,7 +27,7 @@
     left: 500px;
 }
 
-.nav li {
+.nav logo {
   display: inline;
 }
 

@@ -3,7 +3,7 @@ body {
     font-size: 16px;
     background-color: white;
     color: #69699;
-    padding: 3px;
+
     opacity: 1.0;
     filter: alpha(opacity=40);
 }
@@ -18,11 +18,13 @@ body {
 
 
 h1 {
-    font-family: 'Lato', sans-serif;
-    border-bottom: 3px solid #xx9900;
-  padding: 3px;
+ font-family: 'Lato', sans-serif;
+    padding: 4px;
     color: #00CC66;
     font-size: 50px;
+  font-weight: bold;
+  margin-left: 20px;
+  
 
 }
 

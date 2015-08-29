@@ -1,62 +1,58 @@
-html { 
-  background: url("hoome.png") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.title {
+  font-family: 'Lato', sans-serif;
 }
 
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v7/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+.title .row-slogan {
 }
 
-body{
-  font-family: "Lato" ;
+.title .row-title h1 {
+
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
 }
 
-.container {
-  margin-top: 275px;
-  margin-bottom: 100px;
-  margin-right: 50px;
-  margin-left: 600px;
-  width: 640px;
+.main-body .container {
+  margin-top: 0px;
+  margin-bottom: 200px;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 300px;
+  text-align: center;
 }
+
+.main-body .row .col-md-5 {
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 100px;
+  
+}
+
+
+img {
+  margin-left: auto;
+}
+
 
 .login {
-  position: relative;
-  margin: 0 auto;
+  text-align: left;
+  margin: 0;
   padding: 20px 20px 20px;
-  width: 310px;
+  width: 500px;
   background: white;
   border-radius: 3px;
   @include box-shadow(0 0 200px rgba(white, .5), 0 1px 2px rgba(black, .3));
 
   &:before {
     content: '';
-    position: absolute;
+    position: relative;
     top: -8px; right: -8px; bottom: -8px; left: -8px;
     z-index: -1;
     background: rgba(black, .08);
     border-radius: 4px;
   }
 
-  h1 {
-    margin: -20px -20px 21px;
-    line-height: 40px;
-    font-size: 15px;
-    font-weight: bold;
-    color: #555;
-    text-align: center;
-    text-shadow: 0 1px white;
-    background: #f3f3f3;
-    border-bottom: 1px solid #cfcfcf;
-    border-radius: 3px 3px 0 0;
-    @include linear-gradient(top, whiteffd, #eef2f5);
-    @include box-shadow(0 1px #f5f5f5);
-  }
+
 
   p { margin: 20px 0 0; }
   p:first-child { margin-top: 0; }
@@ -69,7 +65,7 @@ body{
 .login-help {
   margin: 20px 0;
   font-size: 11px;
-  text-align: center;
+  text-align: left;
 
   a {
     color: #cce7fa;
@@ -97,7 +93,7 @@ input {
 input[type=text], input[type=password] {
   margin: 5px;
   padding: 0 10px;
-  width: 200px;
+  width: 300px;
   height: 34px;
   color: #404040;
   background: white;

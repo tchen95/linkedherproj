@@ -2,17 +2,34 @@ body {
 font-family: 'Lato', sans-serif;
 font-size: 16px;
 background-color: #00CC44;
-color: #69699;
+color: #699699;
 padding: 3px;
 }
 
+h1 {
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  
+}
+
+.row {
+  text-align: center;
+}
+
+
+.col-md-6 {
+  align-content: center;
+  display: block;
+}
+
+
 #personIcon{
+    display: block;
     color: #fff;
     text-shadow: 1px 1px 1px #ccc;
     font-size: 150px;
-    position: absolute;
-    left: 350px;
-    top: 130px;
+
 }
 
 #senseiIcon{
@@ -20,9 +37,6 @@ padding: 3px;
     color: #fff;
     text-shadow: 1px 1px 1px #ccc;
     font-size: 150px;
-    position: absolute;
-    left: 850px;
-    top: 130px;
 }
 
 #grasshopperIcon{
@@ -30,9 +44,6 @@ padding: 3px;
     color: #fff;
     text-shadow: 1px 1px 1px #ccc;
     font-size: 150px;
-    position: absolute;
-    left: 350px;
-    top: 400px;
 }
 
 #eventsIcon{
@@ -40,10 +51,36 @@ padding: 3px;
     color: #fff;
     text-shadow: 1px 1px 1px #ccc;
     font-size: 150px;
-    position: absolute;
-    left: 850px;
-    top: 400px;
 }
+
+#profileTag {
+    font-family: 'Lato', sans-serif;
+    border-bottom: 3px solid #xx9900;
+    color: floralwhite;
+  margin-top: -5px;
+}
+
+#senseiTag {
+    font-family: 'Lato', sans-serif;
+    border-bottom: 3px solid #xx9900;
+    color: floralwhite;
+  margin-top: -5px;
+}
+
+#grasshopperTag {
+    font-family: 'Lato', sans-serif;
+    border-bottom: 3px solid #xx9900;
+    color: floralwhite;
+  margin-top: -5px;
+}
+
+#eventsTag {
+    font-family: 'Lato', sans-serif;
+    border-bottom: 3px solid #xx9900;
+    color: floralwhite;
+margin-top: -5px;
+}
+
 
 #main {
 padding: 5px;
@@ -57,7 +94,7 @@ h1 {
 font-family: 'Lato', sans-serif;
 border-bottom: 3px solid #xx9900;
 color: floralwhite;
-font-size: 30px;
+font-size: 50px;
 }
 
 th {

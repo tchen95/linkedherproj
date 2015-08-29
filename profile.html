@@ -9,11 +9,15 @@
     <link rel="stylesheet" href="profile.css">
     <script>
     function getUrlVars() {
-      var vars = {};
-      var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-      vars[key] = value;
-      });
-      return vars;
+        var defaultInfo = {firstName: "Ada", lastName: "Ng", me: "I am a UC Berkeley Student majoring in Chemical Biology. I am keenly interested in learning computer science and web development skills. I also hope to make friends! If anyone is interested in fancy food, dancing, and cute dogs, feel free te reach out!", skill1: "Java", skill2: "Python", skill3: "C", skill4: "HTML", skill5: "CSS", skill6: "Javascript", }
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+        });
+        if (Object.getOwnPropertyNames(vars).length === 0) {
+            return defaultInfo;
+        }
+        return vars;
     }
 
     </script>
@@ -21,7 +25,7 @@
   </head>
 
   <body>
-    <div class="nav"> 
+    <div class="nav">
       <div class = "logo">
         <a href="index.html"style="color:#00CC66">Grasshopper</a>
         </div>
@@ -52,11 +56,11 @@
                             <a href="#"><script> document.write(getUrlVars()["skill5"] + ', '); </script> </a>
                             <a href="#"><script> document.write(getUrlVars()["skill6"]); </script> </a><br>
                         </div>
-                                      
+
 <p></p>
 
                     <div class="social-media">
-                       <a href="https://linkedin.com/"><img title="LinkedIn" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/2000px-Linkedin_icon.svg.png" alt="RSS" width="35" height="35" hspace="5"/></a>   
+                       <a href="https://linkedin.com/"><img title="LinkedIn" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/2000px-Linkedin_icon.svg.png" alt="RSS" width="35" height="35" hspace="5"/></a>
                         <a href="https://facebook.com/"><img title="Facebook" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png" alt="Facebook" width="35" height="35" hspace="5"/></a>
                         <a href="mailto:name@domain.com"><img title="Email" src="http://icons.iconarchive.com/icons/dtafalonso/android-lollipop/512/Gmail-icon.png" alt="Email" width="35" height="35" hspace="5"/></a>
                      <a href="https://twitter.com/"><img title="Twitter" src="http://www2.psd100.com/ppp/2013/11/0601/twitter-logo-icon-1106001539.png" alt="Twitter" width="35" height="35" hspace="5"/></a>
@@ -66,6 +70,6 @@
           </div>
         </div>
       </div>
-    
+
   </body>
 </html>

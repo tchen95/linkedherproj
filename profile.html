@@ -2,11 +2,21 @@
 <html>
 
   <head>
-    <title>GRASSHOPPER | Tammy Chen</title>
+    <title>GRASSHOPPER | User Profile</title>
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
     <link rel="stylesheet" href="profile.css">
+    <script>
+    function getUrlVars() {
+      var vars = {};
+      var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+      vars[key] = value;
+      });
+      return vars;
+    }
+
+    </script>
 
   </head>
 
@@ -24,24 +34,25 @@
       <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <img id = "profilePic" src="profPic.png" align="middle" height="300" width="375">
+                <img id = "profilePic" src="nature.jpg" align="middle" height="300" width="375">
             </div>
             <div class="col-md-8">
-                <h2>Tammy Chen</h2>
+                <h2><script> document.write(getUrlVars()["firstName"] + ' ' + getUrlVars()["lastName"]); </script></h2>
                 <div class="techskills">
-                    <p>I HAVE WRITTEN ABOUT MYSELF HERE JFKDSJFLKJSKL FJDKLS JFKLS JFKELW JF302FJ3J IREJSGJ4L3 JTK4TL JKRLJ AFKLE</p>
+                    <p><script> document.write(getUrlVars()["me"]); </script> <br></p>
+                    <!-- <p> <script> var blurb = getUrlVars()["me"]; var blurb1 = blurb.replace("+", " "); document.write(blurb1); </script> </p> -->
                         Skills I have:
-                        <div class="list-of-skills">
-                            <a href="#">Java</a>
-                            <a href="#">Python</a>
-                            <a href="#">Databases</a>
+                        <div class="list-of-skills"> <br>
+                            <a href="#"> <script> document.write(getUrlVars()["skill1"] + ', '); </script> </a>
+                            <a href="#"><script> document.write(getUrlVars()["skill2"] + ', '); </script> </a>
+                            <a href="#"><script> document.write(getUrlVars()["skill3"]); </script> </a><br>
                         </div>
                   <p></p>
                         Skills I'm looking for mentorship in:
-                        <div class="list-of-mentorships">
-                            <a href="#">Cooking</a>
-                            <a href="#">Cleaning</a>
-                            <a href="#">Music</a>
+                        <div class="list-of-mentorships"> <br>
+                            <a href="#"><script> document.write(getUrlVars()["skill4"] + ', '); </script> </a>
+                            <a href="#"><script> document.write(getUrlVars()["skill5"] + ', '); </script> </a>
+                            <a href="#"><script> document.write(getUrlVars()["skill6"]); </script> </a><br>
                         </div>
                                       
 <p></p>

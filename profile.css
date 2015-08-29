@@ -1,0 +1,71 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.display {
+  background-image:url('http://goo.gl/04j7Nn');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.display .container {
+  position: relative;
+  top:100px;
+}
+
+.display .container h2 {
+  color: #fff;
+  font-size: 48px;  
+    
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.display p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.information {
+  background-color: #00cc70;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.information .container {
+    color: #5a5a5a;
+  font-size: 16px;
+font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: none;
+}
+.information .techskills {
+    color: #5a5a5a;
+  font-size: 16px;
+font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: none;
+}
+
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}

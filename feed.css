@@ -1,253 +1,139 @@
-.logo h1 {
-    font-family: 'Lato', sans-serif;
-    border-bottom: 3px solid #xx9900;
-    color: #00CC66;
-    font-size: 50px;
+p { 
+  margin-top: 0px;
+  margin-left:900px; 
+  margin-right:100px;
+  margin-bottom:0px;
+
+  font-family: "Lato";
+  font-size: 14px;
+}
+
+.nav .nav-row .logo {
+  font-family: 'Lato', sans-serif;
+  padding: 4px;
+  color: #00cc66;
+  font-size: 50px;
   font-weight: bold;
-  padding: 15px;
-
+  margin-left: 20px;
+  display: inline;
 }
 
-
-.gfg-root {
-  width : 100%;
-  height : auto;
-  position : relative;
-  overflow : hidden;
-  text-align : center;
-  font-family: "Lato", sans-serif;
-  font-size: 26px;
-  padding-left: 300px;
-  padding-right: 300px;
-  padding-top: 75px;
-  
+.nav .nav-row .col-md-3 {
+  display: inline;
 }
 
-.gfg-title {
-  font-size: 30px;
-  font-weight : bold;
-  color : #00CC66;
-  background-color: #E5ECF9;
-  line-height : 1.4em;
-  overflow : hidden;
-  white-space : nowrap;
-  position: relative;
-}
+input[type=text] { width: 278px; }
 
-.gfg-title a {
-  color : #00CC66;
-}
-
-.gfg-subtitle {
-  font-size: 20px;
-  font-weight : bold;
-  color : #00CC66;
-  background-color: #E5ECF9;
-  line-height : 1.4em;
-  overflow : hidden;
-  white-space : nowrap;
-  margin-bottom : 5px;
-}
-
-.gfg-subtitle a {
-  color : #3366cc;
-}
-
-.gfg-entry {
-  background-color : white;
-  width : 100%;
-  height : 6.9em;
-  position : relative;
-  overflow : hidden;
-  text-align : left;
-  margin-top : 3px;
-}
-
-/* To allow correct behavior for overlay */
-.gfg-root .gfg-entry .gf-result {
-  position : relative;
-  background-color : white;
-  width : auto;
-  height : 100%;
-  padding-left : 20px;
-  padding-right : 5px;
-}
-
-.gfg-list {
-  position : relative;
-  overflow : hidden;
-  text-align : left;
-  margin-bottom : 5px;
-}
-
-.gfg-listentry {
-  line-height : 1.5em;
-  overflow : hidden;
-  white-space : nowrap;
-  text-overflow : ellipsis;
-  -o-text-overflow : ellipsis;
-  padding-left : 15px;
-  padding-right : 5px;
-  margin-left : 5px;
-  margin-right : 5px;
-}
-
-.gfg-listentry-odd {
-  background-color : #F6F6F6;
-}
-
-.gfg-listentry-even {
-}
-
-.gfg-listentry-highlight { 
-  background-image : url('garrow.gif');
-  background-repeat: no-repeat;
-  background-position : center left;
-}
-
-/*
- * FeedControl customizations.
- */
-
-.gfg-root .gfg-entry .gf-result .gf-title {
-  font-size: 20px;
-  line-height : 1.2em;
-  overflow : hidden;
-  white-space : nowrap;
-  text-overflow : ellipsis;
-  -o-text-overflow : ellipsis;
-  margin-bottom : 2px;
-}
-
-.gfg-root .gfg-entry .gf-result .gf-snippet {
-  height : 3.8em;
-  color: #000000;
-  margin-top : 3px;
-}
-
-/*
- * Easy way to get horizontal mode, applicable via js options to gadget.
- */
-
-.gfg-horizontal-container {
-  position : relative;
-}
-
-.gfg-horizontal-root {
-  height : 1.5em;
-  _height : 100%;
-  position : relative;
-  white-space : nowrap;
-  overflow : hidden;
-  text-align : center;
-  font-family: "Lato", sans-serif;
+:-moz-placeholder {
+  color: #c9c9c9 !important;
   font-size: 13px;
-  border: 1px solid #AAAAAA;
-  padding : 5px;
-  margin-right : 80px;
 }
 
-.gfg-horizontal-root .gfg-title {
-  font-weight : bold;
-  background-color: #FFFFFF;
-  line-height : 1.5em;
-  overflow : hidden;
-  white-space : nowrap;
-  float : left;
-  padding-left : 10px;
-  padding-right : 12px;
-  border-right: 1px solid #AAAAAA;
+::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 13px;
 }
 
-.gfg-horizontal-root .gfg-title a {
-  color : #444444;
-  text-decoration : none;
+input {
+  font-family: "Lato";
+  font-size: 14px;
 }
 
-.gfg-horizontal-root .gfg-entry {
-  width : auto;
-  height : 1.5em;
-  position : relative;
-  overflow : hidden;
-  text-align : left;
-  margin-top : 0px;
-  margin-left : 0px;
-  padding-left : 10px;
+input[type=text], input[type=password] {
+  margin: 5px;
+  padding: 0 10px;
+  width: 200px;
+  height: 34px;
+  color: #404040;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px;
+  outline: 5px solid #eff4f7;
+  -moz-outline-radius: 3px; 
+  @include box-shadow(inset 0 1px 3px rgba(black, .12));
+
+  &:focus {
+    border-color: #7dc9e2;
+    outline-color: #dceefc;
+    outline-offset: 0; 
+  }
 }
 
-/* To allow correct behavior for overlay */
-.gfg-horizontal-root .gfg-entry .gf-result {
-  position : relative;
-  background-color : white;
-  width : 100%;
-  height : 100%;
-  line-height : 1.5em;
-  overflow : hidden;
-  white-space : nowrap;
+img {
+  width:100px;
+  height:100px;
+  padding-top: 20px;
 }
 
-.gfg-horizontal-root .gfg-list {
-  display : none;
+td {
+   padding:15px;
 }
 
-/*
- * FeedControl customizations.
- */
-
-.gfg-horizontal-root .gfg-entry .gf-result .gf-snippet,
-.gfg-horizontal-root .gfg-entry .gf-result .gf-author {
-  display : none;
+table {
+  margin-left:200px;
 }
 
-.gfg-horizontal-root .gfg-entry  .gf-result .gf-title {
-  color: #0000cc;
-  margin-right : 3px;
-  float : left;
+body {
+    background-image: url("bge.png");
 }
 
-.gfg-horizontal-root .gfg-entry .gf-result .gf-spacer {
-  float : left;
+h5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 34;
+    color:#324F17;
+    margin-left:100px;
+    margin-bottom:0px;
+    padding:0px;
 }
 
-.gfg-horizontal-root .gfg-entry .gf-result .gf-spacer,
-.gfg-horizontal-root .gfg-entry .gf-result .gf-relativePublishedDate {
-  display : block;
-  color: #AAAAAA;
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 24;
+    color:#324F17;
+    margin-left:100px;
+    margin-bottom:0px;
+    padding:0px;
 }
 
-.gfg-branding {
-  white-space : nowrap;
-  overflow : hidden;
-  text-align : left;
-  position : absolute;
-  right : 0px;
-  top : 0px;
-  width : 80px;
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20;
+    color:#324F17;
+    margin-left:100px;
+    margin-bottom:0px;
+    padding:0px;
 }
 
-.gfg-collapse-open, .gfg-collapse-closed {
-  background-repeat : no-repeat;
-  background-position : center;
-  cursor : pointer;
-  float : right;
-  width : 17px;
-  height : 20px;
+h2 {
+  font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 36;  
+    margin:0px;
+    padding:0px;
+}
+h4 {
+  font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    font-size: 20;  
+    margin-top:0px;
+    margin-bottom:5px;
+    padding:0px;
 }
 
-.gfg-collapse-open {
-  background-image : url('arrow_open.gif');
+ul li {
+  font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    font-size: 16;  
+    margin:0px;
+    padding:0px;
 }
 
-.gfg-collapse-closed {
-  background-image : url('arrow_close.gif');
+ul {
+  margin:0px;
 }
 
-.gfg-collapse-href {
-  float : left;
 }
-
-.clearFloat {
-  clear : both;
-}
-
-

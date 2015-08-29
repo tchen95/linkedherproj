@@ -6,6 +6,17 @@ color: #699699;
 padding: 3px;
 }
 
+.nav .logo {
+ font-family: 'Lato', sans-serif;
+    padding: 4px;
+    color: #00CC66;
+    font-size: 50px;
+  font-weight: bold;
+  margin-left: 20px;
+  
+
+}
+
 h1 {
   padding-top: 0px;
   padding-left: 20px;
@@ -25,7 +36,6 @@ h1 {
 
 
 #personIcon{
-    display: block;
     color: #00cc66;
     text-shadow: 1px 1px 1px #ccc;
     font-size: 150px;
